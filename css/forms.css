@@ -1,0 +1,65 @@
+.center{
+    color:rgb(238, 255, 0) ;
+    margin-left: 600px;
+    
+    
+}
+footer{
+      background-color: black;
+      opacity: 0.7;
+    height: 120px;
+   
+}
+body{
+    background-image: url(https://www.gamerfocus.co/wp-content/uploads/2021/07/free_fire_exito_descargas.jpg); 
+    background-repeat: no-repeat;
+    background-size:100% ;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #000000;
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu > li > a{
+ display: block;
+ padding: 15px 20px;
+ color: white;
+ text-decoration: none;
+}
+
+.menu > li:hover{
+    background-color: red;
+}
+
+.menu_ver{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(101, 101, 101, 0.5);
+
+}
+
+.menu li:hover .menu_ver{
+    display: block;
+}
+.menu_ver li:hover{
+    background-color: rgb(249, 0, 0);
+}
+
+.menu_ver li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+li{
+    font-size: 20px;
+}

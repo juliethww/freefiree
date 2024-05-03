@@ -1,0 +1,106 @@
+body {
+    background-image: url('../images/fondo3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    height: 100%;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffc800;
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.3s ease;
+    position: relative;
+}
+
+.menu > li > a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.menu > li:hover > a {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding-left: 25px;
+}
+
+.menu > li:hover > a::before {
+    background-color: #ffc800;
+}
+
+.menu_ver {
+    display: none;
+    list-style: none;
+    background-color: rgba(65, 65, 65, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu_ver li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.menu_ver li:hover a {
+    background-color: #ff6600;
+    padding-left: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.logout-btn {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #cf7b04;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #eeab47;
+}
